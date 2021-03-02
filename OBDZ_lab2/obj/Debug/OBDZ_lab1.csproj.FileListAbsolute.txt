@@ -1,0 +1,26 @@
+C:\Users\Admin\source\repos\OBDZ_lab1\bin\Debug\OBDZ_lab1.exe.config
+C:\Users\Admin\source\repos\OBDZ_lab1\bin\Debug\OBDZ_lab1.exe
+C:\Users\Admin\source\repos\OBDZ_lab1\bin\Debug\OBDZ_lab1.pdb
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.Properties.Resources.resources
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.exe
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.pdb
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.About.resources
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.Calculator.resources
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.MainForm.resources
+C:\Users\Admin\source\repos\OBDZ_lab1\obj\Debug\OBDZ_lab1.Calcul.resources
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\bin\Debug\OBDZ_lab1.exe.config
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\bin\Debug\OBDZ_lab1.exe
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\bin\Debug\OBDZ_lab1.pdb
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.About.resources
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.Calcul.resources
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.Calculator.resources
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.MainForm.resources
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.Properties.Resources.resources
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.exe
+C:\Users\Admin\source\repos\OBDZ labs\OBDZ_lab1\obj\Debug\OBDZ_lab1.pdb
