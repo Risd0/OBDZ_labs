@@ -33,8 +33,8 @@ namespace OBDZ_lab1
         private void btnOk_Click(object sender, EventArgs e)
         {
             double ch1, ch2;
-            if (txtCh1.Text == "") { ch1 = 0; } else { ch1 = double.Parse(txtCh1.Text); }
-            if (txtCh2.Text == "") { ch2 = 0; } else { ch2 = double.Parse(txtCh2.Text); }
+            if (txtCh1.Text == "") { ch1 = 0; } else { double.TryParse(txtCh1.Text, out ch1); }
+            if (txtCh2.Text == "") { ch2 = 0; } else { double.TryParse(txtCh2.Text, out ch2); }
 
             switch (cmbxAct.SelectedIndex)
             {

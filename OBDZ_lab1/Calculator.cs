@@ -25,8 +25,16 @@ namespace OBDZ_lab1
 
         private void btnPercent_Click(object sender, EventArgs e)
         {
-            var result = Convert.ToDouble(new DataTable().Compute(resultText.Text, null));    // calculate an arithmetic expression in the current textBox
-            resultText.Text = (result * 0.01).ToString();
+            try
+            {
+                double num = double.NaN;    // set num as NaN
+                num = double.Parse(new DataTable().Compute(resultText.Text.Replace(',', '.'), null).ToString());    // calculate an arithmetic expression in the current textBox; need to replace ',' into '.' to avoid Error
+                resultText.Text = Math.Round(num * 0.01, 10, MidpointRounding.ToEven) + "";
+            }
+            catch (Exception)
+            {
+                resultText.Text = "Error";
+            }
         }
 
         private void Calculator_Load(object sender, EventArgs e)
@@ -36,9 +44,16 @@ namespace OBDZ_lab1
 
         private void btnEquals_Click(object sender, EventArgs e)
         {
-            var result = new DataTable().Compute(resultText.Text, null);    // calculate an arithmetic expression in the current textBox
-            resultText.Text = result.ToString();
-            //if (!decimal.TryParse(resultText.Text, out _)) { resultText.Text = double.NaN.ToString(); }
+            try
+            {
+                var result = double.NaN;    // set num as NaN
+                result = double.Parse(new DataTable().Compute(resultText.Text.Replace(',', '.'), null).ToString());    // calculate an arithmetic expression in the current textBox; need to replace ',' into '.' to avoid Error
+                resultText.Text = Math.Round(result, 10, MidpointRounding.ToEven) + ""; //rounding number
+            }
+            catch (Exception)
+            {
+                resultText.Text = "Error";
+            }
         }
 
         private void btn0_Click(object sender, EventArgs e)
@@ -58,7 +73,7 @@ namespace OBDZ_lab1
 
         private void btnPoint_Click(object sender, EventArgs e)
         {
-            resultText.Text += ",";
+            resultText.Text += ".";
         }
 
         private void btn3_Click(object sender, EventArgs e)
