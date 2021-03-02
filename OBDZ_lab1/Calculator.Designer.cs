@@ -277,6 +277,7 @@ namespace OBDZ_lab1
             // 
             this.resultText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.resultText.Enabled = false;
             this.resultText.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.resultText.Location = new System.Drawing.Point(12, 41);
             this.resultText.Name = "resultText";
